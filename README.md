@@ -61,3 +61,28 @@ Clone the repository:
 ```bash
 git clone https://github.com/I-MONDY-I/nginx-vhost-auto-setup.git
 cd nginx-vhost-auto-setup
+```
+
+## Make the script executable:
+
+```bash
+chmod +x nginx_vhost_setup.sh
+```
+## Usage
+Run with the domain name:
+
+```bash
+sudo ./nginx_vhost_setup.sh example.com /var/www /etc/nginx/sites-available /etc/nginx/sites-enabled www-data
+```
+
+Arguments:
+
+ Domain
+
+ Web root base
+
+ Nginx sites-available path
+
+ Nginx sites-enabled path
+
+ Nginx user
