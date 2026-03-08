@@ -86,3 +86,13 @@ Arguments:
  Nginx sites-enabled path
 
  Nginx user
+
+ Example Output
+======================================================================
+NGINX VHOST AUTO SETUP
+======================================================================
+[2026-03-08 16:55:12] Domain             : example.com
+[2026-03-08 16:55:12] Web root           : /var/www/example.com
+[2026-03-08 16:55:12] Sites available    : /etc/nginx/sites-available
+[2026-03-08 16:55:12] Sites enabled      : /etc/nginx/sites-enabled
+[2026-03-08 16:55:12] Nginx user         : www-data
