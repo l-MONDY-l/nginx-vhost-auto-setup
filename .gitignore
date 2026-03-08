@@ -1,0 +1,6 @@
+# `.gitignore`
+
+```gitignore
+*.log
+*.tmp
+.DS_Store
